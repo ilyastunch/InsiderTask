@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-28T22:17:41.596Z",
+        "line": 3,
+        "name": "The user should apply for specific job",
+        "description": "",
+        "id": "some-secenarios-for-the-task;the-user-should-apply-for-specific-job",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14873407300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Visit https://useinsider.com/ and check Insider home page is opened or not",
+            "match": {
+              "location": "com.insider.step_definitions.InsiderTaskDefs.visit_https_useinsider_com_and_check_Insider_home_page_is_opened_or_not()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3994100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Select Career menu in navigation bar and check Career page, its Culture, Locations, Teams, Jobs and Life at Insider blocks are opened or not",
+            "match": {
+              "location": "com.insider.step_definitions.InsiderTaskDefs.select_Career_menu_in_navigation_bar_and_check_Career_page_its_Culture_Locations_Teams_Jobs_and_Life_at_Insider_blocks_are_opened_or_not()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll to Career Opportunities, filter jobs by Location - Istanbul, Turkey and department - Quality Assurance, check presence of jobs list",
+            "match": {
+              "location": "com.insider.step_definitions.InsiderTaskDefs.scroll_to_Career_Opportunities_filter_jobs_by_Location_Istanbul_Turkey_and_department_Quality_Assurance_check_presence_of_jobs_list()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1996300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check that all jobs’ Position contains “Quality Assurance, Department contains Quality Assurance”, Location contains Istanbul, Turkey",
+            "match": {
+              "location": "com.insider.step_definitions.InsiderTaskDefs.check_that_all_jobs_Position_contains_Quality_Assurance_Department_contains_Quality_Assurance_Location_contains_Istanbul_Turkey()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1997700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select one of the positions, check that correct position page is opened, presence of job description, requirements and Apply for this job button",
+            "match": {
+              "location": "com.insider.step_definitions.InsiderTaskDefs.select_one_of_the_positions_check_that_correct_position_page_is_opened_presence_of_job_description_requirements_and_Apply_for_this_job_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Apply for this job button and check that this action redirects us to Application form page",
+            "match": {
+              "location": "com.insider.step_definitions.InsiderTaskDefs.click_Apply_for_this_job_button_and_check_that_this_action_redirects_us_to_Application_form_page()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Some secenarios for the Task",
+    "description": "",
+    "id": "some-secenarios-for-the-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/InsideTask.feature",
+    "tags": []
+  }
+]
