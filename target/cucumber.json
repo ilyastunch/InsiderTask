@@ -3,7 +3,18 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-28T22:17:41.596Z",
+        "start_timestamp": "2021-05-06T05:26:49.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5653550900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.insider.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
         "line": 3,
         "name": "The user should apply for specific job",
         "description": "",
@@ -13,19 +24,19 @@
         "steps": [
           {
             "result": {
-              "duration": 14873407300,
+              "duration": 9406997200,
               "status": "passed"
             },
             "line": 4,
-            "name": "Visit https://useinsider.com/ and check Insider home page is opened or not",
+            "name": "Visit url and check Insider home page is opened or not",
             "match": {
-              "location": "com.insider.step_definitions.InsiderTaskDefs.visit_https_useinsider_com_and_check_Insider_home_page_is_opened_or_not()"
+              "location": "com.insider.step_definitions.InsiderTaskDefs.visit_url_and_check_Insider_home_page_is_opened_or_not()"
             },
             "keyword": "* "
           },
           {
             "result": {
-              "duration": 3994100,
+              "duration": 10403994900,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 1001500,
+              "duration": 1475999500,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 1996300,
+              "duration": 1366001100,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 1997700,
+              "duration": 6126000200,
               "status": "passed"
             },
             "line": 8,
@@ -73,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 1003700,
+              "duration": 5297996900,
               "status": "passed"
             },
             "line": 9,

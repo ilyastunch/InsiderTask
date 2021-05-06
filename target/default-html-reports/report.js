@@ -14,12 +14,15 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
-  "name": "Visit https://useinsider.com/ and check Insider home page is opened or not",
+  "name": "Visit url and check Insider home page is opened or not",
   "keyword": "* "
 });
 formatter.match({
-  "location": "com.insider.step_definitions.InsiderTaskDefs.visit_https_useinsider_com_and_check_Insider_home_page_is_opened_or_not()"
+  "location": "com.insider.step_definitions.InsiderTaskDefs.visit_url_and_check_Insider_home_page_is_opened_or_not()"
 });
 formatter.result({
   "status": "passed"

@@ -5,13 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
-
-
-    public HomePage() {
+public class ApplicationPage {
+    public ApplicationPage() {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(xpath = "//*[@id='menu-item-21643']/a")
-    public WebElement career;
+    @FindBy(xpath = "(//div[@class='section page-centered application-form'])[1]")
+    public WebElement formHeadText;
+
+
 }
